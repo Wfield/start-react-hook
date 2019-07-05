@@ -11,6 +11,12 @@
 # production
 /build
 
+# other hook
+/src/Container.js
+/src/Counter.js
+/src/Header.js
+/src/StateHook.js
+
 # misc
 .DS_Store
 .env.local
