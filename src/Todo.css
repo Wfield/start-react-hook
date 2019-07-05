@@ -1,0 +1,35 @@
+.todo {
+	width: 600px;
+	overflow: auto;
+	background-color: #b3fb6130;
+	border: 1px solid #aaa;
+	margin-top: 20px;
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+}
+.content, .statusDisplay, .actions {
+	float: left;
+	height: 60px;
+}
+.content {
+	width: 60%;
+	text-align: left;
+	word-break: break-all;
+}
+.statusDisplay {
+	width: 20%;
+}
+.actions {
+	width: 20%;
+}
+.actions > button {
+	width: 100%;
+	height: 30px;
+	border: none;
+}
+.deleteBtn {
+	background-color: #ff000063
+}
+.doneBtn {
+	background-color: #4682b48a
+}
